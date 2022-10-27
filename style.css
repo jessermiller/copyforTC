@@ -1,0 +1,128 @@
+@font-face {
+    font-family: Outift;
+    src: url(https://fonts.google.com/specimen/Outfit);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--mainbg);
+    color: var(--White);
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.container {
+    color: var(--Softblue);
+    background-color: var(--cardbg);
+    width: 370px;
+    padding: 1.5rem;
+    border-radius: 0.8rem;
+   
+}
+
+.container img {
+    width: 100%;
+    
+    border-radius: 0.8em;
+    
+
+}
+
+h2 {
+     margin-top: 1.5rem;
+     font-weight: 600;
+     font-size: 1.5rem;
+     color: var(--White);
+}
+
+p {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--Softblue);
+    font-weight: 300;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid var(--line);
+   
+    
+}
+
+div {
+   display: block;
+}
+
+.details span img {
+    margin-right: .5rem;
+    
+}
+
+.details span {
+    color: var(--Cyan);
+    display: flex;
+    align-items: center;
+}
+
+.details span + span {
+    color: var(--Softblue);
+}
+
+#ethic {
+    height: 18px;
+    width: 11px;
+}
+
+#clockid {
+    height: 17px;
+    width: 17px;
+}
+
+.attribution { font-size: 11px; 
+    margin-top: 1.5rem;
+
+}
+
+
+.flexdiv {
+    display: flex;
+    align-items: center;
+}
+
+.flexdiv span {
+    margin-top: 1rem;
+    font-weight: 400;
+    color: var(--White)
+}
+
+#vernpic {
+   height: 30px;
+   width: 30px;
+   border: 1px solid var(--White);
+   margin-right: .5rem;
+
+}
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+:root {
+
+--Softblue: hsl(215, 51%, 70%);
+--Cyan: hsl(178, 100%, 50%);    
+--mainbg: hsl(217, 54%, 11%);
+--cardbg: hsl(216, 50%, 16%);
+--line: hsl(215, 32%, 27%);
+--White: hsl(0, 0%, 100%);
+
+}
